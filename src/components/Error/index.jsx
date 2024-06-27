@@ -1,10 +1,10 @@
-import styled from 'styled-components'
-import error404 from '../../assets/404.svg'
-import colors from '../../utils/style/colors'
+import styled from 'styled-components';
+import error404 from '../../assets/404.svg';
+import colors from '../../utils/style/colors';
 
 const Display = styled.div`
   margin: 25px;
-  background-color: ${colors.background};
+  background-color: ${colors.section};
   display: flex;
   flex-direction: column;
   padding: 100px 25px;
@@ -12,21 +12,21 @@ const Display = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 20px;
-`
+`;
 
 const Img = styled.img`
   max-width: 800px;
   box-sizing: content-box;
   width: 50%;
-`
+`;
 
 const ErrorTitle = styled.h1`
   font-weight: 300;
-`
+`;
 
 const ErrorSubtitle = styled.h2`
   font-weight: 300;
-`
+`;
 
 function Error() {
   return (
@@ -37,7 +37,7 @@ function Error() {
 
       <ErrorSubtitle>Il semblerait qu'il y ait un problème</ErrorSubtitle>
     </Display>
-  )
+  );
 }
 
-export default Error
+export default Error;

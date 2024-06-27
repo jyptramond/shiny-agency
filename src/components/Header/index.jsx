@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import logo from '../../assets/dark-logo.png'
-import { StyledLink } from '../../utils/style/Atoms'
+import { StyledLink } from '../../utils/Atoms'
 
 const StyledHeader = styled.nav`
   display: flex;
